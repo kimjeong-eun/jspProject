@@ -62,7 +62,5 @@
 		request.setAttribute("errorMessage","파일 업로드 오류");
 		request.getRequestDispatcher("FileUploadMain.jsp").forward(request, response);
 	}
-		
  %>   
-    
     
